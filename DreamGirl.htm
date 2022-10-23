@@ -1,0 +1,277 @@
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html" charset="windows-1251">
+  <title>Сеанс психотерапии он-лайн</title>
+  <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <div class="container" >
+	  <nav>
+	   <ul class="site-navigation">
+		<li><a href="#">Главная</a></li>
+		<li><a href="#">Психотипы</a>
+			<ul>
+			<li id="1" onClick="MenuClick(this)"><a href='#'>Паранояльный</a></li>
+			<li id="2" onClick="MenuClick(this)"><a href="#">Эпилептоид</a></li>
+			<li id="3" onClick="MenuClick(this)"><a href="#">Истероид</a></li>
+			<li id="4" onClick="MenuClick(this)"><a href="#">Гипертим</a></li>
+			<li id="5" onClick="MenuClick(this)"><a href="#">Шизоид</a></li>
+			<li id="6" onClick="MenuClick(this)"><a href="#">Астеник</a></li>
+			</ul>
+		</li>		
+		<li><a href="#">Моя работа</a>
+			<ul>
+			<li id="7" onClick="MenuClick(this)"><a href="#">Клиническая психология</a></li>
+			<li id="8" onClick="MenuClick(this)"><a href="#">Социальная работа</a></li>
+		</ul>
+		</li>
+		<li><a href="#">Моё портфолио</a>
+			<ul>
+			<li id="9" onClick="MenuClick(this)"><a href='#'>Спектакль</a></li>
+			<li id="10" onClick="MenuClick(this)"><a href="#">Творческие вечера</a></li>
+			<li id="11" onClick="MenuClick(this)"><a href="#">Экскурсии в музеи</a></li>
+			<li id="12" onClick="MenuClick(this)"><a href="#">Выезд на природу</a></li>
+			<li id="113" onClick="MenuClick(this)"><a href="#">Наш коллектив</a></li>
+			<li id="14" onClick="MenuClick(this)"><a href="#">Научная работа</a></li>			
+		</ul>
+		</li>    	
+		<li><a href="#">Прайслист наших услуг</a>
+			<ul>
+			<li id="15" onClick="MenuClick(this)"><a href='#'>Консультация</a></li>
+			<li id="16" onClick="MenuClick(this)"><a href="#">Групповая психотерапия</a></li>
+			<li id="17" onClick="MenuClick(this)"><a href="#">Арт-терапия</a></li>
+			<li id="18" onClick="MenuClick(this)"><a href="#">ТДТ</a></li>
+			<li id="19" onClick="MenuClick(this)"><a href="#">Музыкальная терапия</a></li>
+			<li id="20" onClick="MenuClick(this)"><a href="#">Сказкатерапия</a></li>			
+		</ul>
+		</li>    	
+		<li><a href="#">Полезные ссылки</a>
+			<ul>
+			<li id="21" onClick="MenuClick(this)"><a href="#">Карл Леонгард</a></li>
+			<li id="22" onClick="MenuClick(this)"><a href="#">Эрих Фром</a></li>
+			<li id="23" onClick="MenuClick(this)"><a href="#">Литература 3</a></li>
+		</ul>
+		</li>
+		<li><a href="#">О нас</a>
+		<ul>
+			<li id="24" onClick="MenuClick(this)"><a href="#">Горбунова Ольга</a></li>
+			<li id="25" onClick="MenuClick(this)"><a href="#">Диана Захарова</a></li>
+			</ul>
+	  </li>
+	  </nav>
+  </div>
+</div>
+<div class="footer">
+   &copy; Fox Soft inc. 2019 - 2022 г.
+</div>
+  <style>
+   h1 {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 250%; /* Размер шрифта в процентах */ 
+   color: white;
+   } 
+   p {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 11pt; /* Размер шрифта в пунктах */ 
+    color: red; /* Цвет */   
+   }
+  </style>
+  <style>
+  body {background-color: black;}
+  </style>
+  <style>
+   .layer1 {
+    position: relative; /* Относительное позиционирование; Психолог */
+    left: 0px; /* X блока */
+    top: 140px; /* Y блока  было 0*/
+    cursor: hand   
+/*z-index: 1;*/
+	}
+  </style>
+  <style>
+   .layer2 {
+    position: relative; /* Относительное позиционирование;  Диалог психолога*/
+    left: 283px; /* X блока */
+    top: -450px; /* Y блока */
+	z-index: 1;
+	}
+  </style>
+  <style>
+   .layer3 {
+    position: relative; /* Относительное позиционирование; Кресло */
+    left: 295px; /* X блока */
+    top: -450px; /* Y блока */
+   	z-index: 1;
+   }
+  </style>
+  <style>
+   .layer4 {
+    position: relative; /* Относительное позиционирование; Девушка-секретарь */
+    left: 700px; /* X блока */
+    top: -1160px; /* Y блока */
+    cursor: hand   
+	z-index: 1;
+	}
+  </style>
+  <style>
+   .layer5 {
+    position: relative; /* Относительное позиционирование ; Секретарь диалог*/
+    left: 990px; /* X блока */
+    top: -1940px; /* Y блока */
+	z-index: 1;
+	}
+  </style>
+  <style>
+   .layer6 {
+    position: relative; /* Относительное позиционирование; Сейф с документами */
+    left: 560px; /* X блока */
+    top: -2000px; /* Y блока */
+	z-index: 1;
+	}
+  </style>
+
+</head>
+<body bgcolor='white'>
+<SCRIPT type="text/javascript">
+</SCRIPT>
+  <div class="layer1">
+   <img name='Girl' src='Images/Olga3.png' title='Девушка-психолог' onmousemove='DialogOlga()' onmouseout='DialogOlgaEnd()' onmousedown='DialogViolencePsihol()'>
+   </div>
+  <div class="layer2">
+  <img name='Dialog1' src='Images/Dialog2.jpg' title='Диалог психолога'>
+  </div>
+  <div class="layer3">
+   <img name='Chair' src='Images/Chair.png' title='Кресло' onmousemove='DialogPacient()' onmouseout='DialogPacientEnd()' onmousedown='DialogProtekPsihol()'>
+   </div>
+<div class="layer4">
+<img name="Secr" src='Images/Secr1.png' title='Девушка-секретарь' onmousemove='DialogSecr()' onmouseout='DialogSecrEnd()' onmousedown='DialogViolenceSecr()'>
+</div>
+<div class="layer5">
+<img name='Dialog2' src='Images/Dialog3.jpg' title='Диалог секретаря' onmousemove='DialogSecr()' onmouseout='DialogSecrEnd()'>
+</div>
+<script type="text/javascript">
+alert('Добро пожаловать в учебную программу для психологов !')
+</script>
+<div class="layer6">
+<img name='Seif' src='Images/Kartateka.jpg' title='Сейф' onmousemove='KartatekaOn()' onmouseout='KartatekaOut()' onmousedown='KartatekaOpen()'>
+</div>
+<script type="text/javascript">
+function ChangeIt()
+{
+alert("Открыта секция сейфа: "+frm2.Seif.option.value);
+}
+function DialogSecr()
+{
+document.Dialog2.src= "Images/Dialog4.jpg";
+}
+
+function DialogSecrEnd()
+{
+document.Dialog2.src= "Images/Dialog2.jpg";
+}
+
+function DialogOlga()
+{
+document.Dialog1.src= "Images/Dialog1.jpg";
+}
+
+function DialogOlgaEnd()
+{
+document.Dialog1.src= "Images/Dialog2.jpg";
+}
+
+function DialogPacient()
+{
+document.Dialog1.src= "Images/Dialog3.jpg";
+}
+
+function DialogPacientEnd()
+{
+document.Dialog1.src= "Images/Dialog2.jpg";
+}
+
+function DialogViolenceSecr()
+{
+document.Dialog2.src= "Images/Dialog5.jpg";
+}
+
+function DialogViolencePsihol()
+{
+document.Dialog1.src= "Images/Dialog6.jpg";
+}
+
+function DialogProtekPsihol()
+{
+document.Dialog1.src= "Images/Dialog7.jpg";
+}
+
+function KartatekaOn()
+{
+document.Dialog2.src= "Images/Dialog8.jpg";
+}
+
+function KartatekaOut()
+{
+document.Dialog2.src= "Images/Dialog2.jpg";
+}
+
+function KartatekaOpen()
+{
+document.Seif.src= "Images/Kartateka2.jpg";
+}
+
+//Создаём массив координат для иконок языков
+XIcon=new Array(500,500,541,500,541); //200,200,241,200,241
+YIcon=new Array(800,800,800,833,833); //300,300,300,333,333
+//Создаём иконки языков
+CreateImageLanguage(7,500,800,36,28,'Images/Select.gif','Select');
+CreateImageLanguage(8,500,800,36,28,'Images/Soviet.gif','USSR');
+CreateImageLanguage(9,541,800,36,28,'Images/America.gif','USA');
+CreateImageLanguage(10,500,833,36,28,'Images/Germany.gif','Germany');
+CreateImageLanguage(11,541,833,36,28,'Images/France.gif','France');
+
+function CreateImageLanguage(objnum,DivLeft,DivTop,Width,Height,PathFile,Flag)
+{
+ApILanguage="<DIV id='country"+objnum+"' STYLE='position: absolute; cursor: hand; left:"+DivLeft+"; top:"+DivTop+"' width:"+Width+"; height:"+Height+">"+"<IMG name="+Flag+" src="+PathFile+" onmousemove='FlagOn(this)' onmouseout='FlagOff(this)' onclick='FlagClick(this.name)' title:'"+Flag+"'>"+
+"</DIV>";
+document.write(ApILanguage);
+objnum++;
+}
+
+function FlagOn(obj)
+{
+if(obj.name=='USSR')
+   {country7.style.left=XIcon[1];
+    country7.style.top=YIcon[1];
+   document.Dialog1.src= "Images/Dialog9.jpg";   
+   }
+if(obj.name=='USA')
+   {country7.style.left=XIcon[2];
+    country7.style.top=YIcon[2];
+   document.Dialog1.src= "Images/Dialog10.jpg";
+   }
+if(obj.name=='Germany')
+   {country7.style.left=XIcon[3];
+    country7.style.top=YIcon[3];
+    document.Dialog1.src= "Images/Dialog11.jpg";
+   }
+if(obj.name=='France')
+   {country7.style.left=XIcon[4];
+    country7.style.top=YIcon[4];
+    document.Dialog1.src= "Images/Dialog12.jpg";
+   }
+document.all.text1.value="Объект: "+obj.name;
+}
+
+function FlagOff(obj)
+{
+document.all.text1.value="Объект: "+"";
+}
+
+function FlagClick(obj)
+{
+document.location=obj+".htm";
+}   
+</script>
+
+</body>
+</html>
