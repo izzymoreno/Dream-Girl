@@ -1,0 +1,45 @@
+Данный программный продукт разрабатывется с 2005 г., студентом Санкт-Петербургского Государственного Университета Телекоммуникаций им. проф. М. А. Бонч-Бруевича
+Александром Владимировичем Баженовым, Ведущим Программистом, тестером и дизайнером одновременно. Автор выражает огромную благодарность своим наставникам Высшей школы; преподавателям, лаборантам, магистрам,
+аспирантам, журналистам ... Газете "Связист", журналам "Мир ПК", "РАДИО" и др. Автор программного кода будет очень рад, если к команде разработчиков присоединятся специалисты из других стран Мира, например,
+"БРИКС" и "ШОС", "ЕС".
+#Недостатки с которыми я столкнулся#
+1) В облачке разговора Ольги и Дианы имеется изъян; текст выводится на разные события не ровно. Из этого следует, что нужно соблюдать Единый стандарт, т.е, одинаковые координаты в пикселях.
+2) Ограничен выбор языка; русский, немецкий, французский, английский.
+3) Необходимо сделать адаптацию под платформы Android и iOS. 
+
+Версия программного продукта: 0.22A 
+
+Este producto de software ha sido desarrollado desde 2005 por un estudiante de la Universidad Estatal de Telecomunicaciones de San Petersburgo. profe. MA Bonch-Bruevich
+Alexander Vladimirovich Bazhenov, programador principal, probador y diseñador al mismo tiempo. El autor expresa su profundo agradecimiento a sus mentores de la Escuela Superior; profesores, ayudantes de laboratorio, maestros,
+estudiantes graduados, periodistas ... Periódico "Svyazist", revistas "PK World", "RADIO", etc. El autor del código del programa estará muy contento si especialistas de otros países del mundo se unen al equipo de desarrollo, por ejemplo,
+BRICS y OCS, "UE".
+#Desventajas que encontré#
+1) Hay una falla en la nube de conversación entre Olga y Diana; El texto se muestra en diferentes eventos no exactamente. De esto se deduce que es necesario observar el Patrón Único, es decir, las mismas coordenadas en píxeles.
+2) elección limitada de idioma; Ruso, Alemán, Francés, Inglés.
+3) Es necesario realizar la adaptación para las plataformas Android e iOS.
+
+Versión del producto de software: 0.22A
+
+Este produto de software foi desenvolvido desde 2005 por um aluno da Universidade Estadual de Telecomunicações de São Petersburgo. prof. M. A. Bonch-Bruevich
+Alexander Vladimirovich Bazhenov, programador líder, testador e designer ao mesmo tempo. O autor expressa sua profunda gratidão aos seus orientadores da Escola Superior; professores, auxiliares de laboratório, mestres,
+estudantes de pós-graduação, jornalistas ... Jornal "Svyazist", revistas "PK World", "RADIO", etc. O autor do código do programa ficará muito feliz se especialistas de outros países do mundo se juntarem à equipe de desenvolvimento, por exemplo,
+BRICS e SCO.
+#Desvantagens que encontrei#
+1) Há uma falha na nuvem de conversa entre Olga e Diana; O texto é exibido em diferentes eventos não exatamente. Daí decorre que é necessário observar o Padrão Único, ou seja, as mesmas coordenadas em pixels.
+2) Escolha limitada de idioma; Russo, alemão, francês, inglês.
+3) É necessário fazer adaptação para plataformas Android e iOS.
+
+Versão do produto de software: 0,22A
+
+該軟件產品自 2005 年起由聖彼得堡國立電信大學的一名學生開發。 教授。 M.A.邦奇-布魯耶維奇
+Alexander Vladimirovich Bazhenov，首席程序員、測試員和設計師。 筆者對高等學校的恩師表示深深的謝意； 教師、實驗室助理、碩士、
+研究生，記者......報紙“Svyazist”，雜誌“PK World”，“RADIO”等。如果來自世界其他國家的專家加入開發團隊，程序代碼的作者將非常高興，例如，
+金磚國家和上海合作組織“歐洲聯盟”。
+#我遇到的缺點#
+1）奧爾加和戴安娜之間的對話云有缺陷； 不同事件上的文本顯示不完全一樣。 由此可見，有必要遵守單一標準，即以像素為單位的相同坐標。
+2）語言選擇有限； 俄語、德語、法語、英語。
+3）需要針對Android和iOS平台進行適配。
+
+軟件產品版本：0.22A
+
+P.S: Перевод подготовлен Электронной системой Google. 2023 год.
